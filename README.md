@@ -29,17 +29,18 @@ try to get as far as possible before lunch.
 2/12/21: start of exercise. not sure what to expect, creating my own server sounds cool but complicated, we'll see how far we can get before lunch. for now i've reworded the first 4 steps and will rush these asap.
 these first steps are going quickly, but i ran into something i couldn't resolve myself because of a naming issue where i named my client html file client.html instead of the default index.html i typically use. because of that the code provided did not work and i lost valuable time. good lesson, but also good lesson in asking for some guidance in a step i feel should be seamless.
 so I finished the steps required to start working on actual features meeting the requirements, currently able to send and receive messages to all and myself. 
+this challenge is more my speed. through some really nice insight at the start after asking a few questions it went very smoothly, i've done all of the non-creative pieces of the must-haves, next up is making it look nicer and thinking of what I want to implement. 
 
 
 ### Features - checklist :heavy_check_mark:
 -finished elements will be checked off-
 >__Must have features__
-- Make a UI that makes it easy for people to send messages in this chatroom.
-- It must be possible to send a message to everyone or to yourself
-- Make sure we can identify who sent the message through a username.
-    - We could make a local variable and prompt the user to choose a username
-    - We can then emit this username along with the sent message to keep track of who sent what.
-- Make a list to show everyone who is connected to the chatroom
+- Make a UI that makes it easy for people to send messages in this chatroom. 
+- It must be possible to send a message to everyone or to yourself :heavy_check_mark:
+- Make sure we can identify who sent the message through a username. :heavy_check_mark: 
+    - We could make a local variable and prompt the user to choose a username :heavy_check_mark:
+    - We can then emit this username along with the sent message to keep track of who sent what. :heavy_check_mark:
+- Make a list to show everyone who is connected to the chatroom :heavy_check_mark:
 - Implement something funny! The sky is the limit! (it can be very simple if you want)
     - For example, you could make a functionality to make someone else's font size obscurely small!
     - You could implement a feature where you can speak with someone else's username
