@@ -26,7 +26,8 @@ rewriting the steps less confusing and working on them.
 try to get as far as possible before lunch. 
 
 ### Log/self-reflection
-2/12/21: start of exercise. not sure what to expect, creating my own server sounds cool but complicated, we'll see how far we can get before lunch. for now i've reworded the first 4 steps and will rush these asap. 
+2/12/21: start of exercise. not sure what to expect, creating my own server sounds cool but complicated, we'll see how far we can get before lunch. for now i've reworded the first 4 steps and will rush these asap.
+these first steps are going quickly, but i ran into something i couldn't resolve myself because of a naming issue where i named my client html file client.html instead of the default index.html i typically use. because of that the code provided did not work and i lost valuable time. good lesson, but also good lesson in asking for some guidance in a step i feel should be seamless.
 
 
 ### Features - checklist :heavy_check_mark:
