@@ -6,6 +6,7 @@ app.use(express.static(clientPath));
 const server = http.createServer(app);
 const io = require('socket.io')(server);
 let counter = 0
+let users = ["Users:"];
 io.on('connection', (socket) => {
     console.log(counter+' someone connected');
     counter++;
@@ -14,6 +15,15 @@ io.on('connection', (socket) => {
     });
     socket.on('sendToMe', (message) =>{
         socket.emit("displayMyMessage", (message));
+    });
+    socket.on('addUser', (user) =>{
+        users.push(user);
+        io.emit("displayUsers", (users));
+    });
+    socket.on('goneUser', (user) =>{
+        users.splice((users).indexOf(user), 1);
+        io.emit("displayByeMessage", (user));
+        io.emit("displayUsers", (users));
     });
 });
 server.listen(port = 8080, () =>{
