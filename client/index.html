@@ -2,14 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link  rel="stylesheet" href="client.css">
+    <link  rel="stylesheet" href="styles.css">
     <title>Title</title>
 
 </head>
 <body>
+
+<label>
+    <input type="text" name="message">
+</label>
+<button id="toAll" name="toAll"> send to all </button>
+<button id="toMe" name="toMe"> send to me </button>
+<div id="target"> message content here</div>
+
+
 <script src="/socket.io/socket.io.js"></script>
 <script src="../server/server.js"></script>
-<script src="client.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
