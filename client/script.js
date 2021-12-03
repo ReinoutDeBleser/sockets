@@ -29,6 +29,9 @@ socket.on('displayMyMessage', (message) => {
     document.getElementById('target').innerHTML += '<br>'+message;
 });
 
+socket.on("displayHiMessage", (user) => {
+    document.getElementById('target').innerHTML += "<br>"+user+ " has entered the chat";
+});
 
 socket.on("displayByeMessage", (user) => {
     document.getElementById('target').innerHTML += "<br>"+user+ " has left the chat";
@@ -42,12 +45,14 @@ if (username !== null) {
     console.log(username);
     socket.emit('addUser', (username));
 }
+
 //can't enter without username. it is also stored in the session.
 while (username == null){
     username = prompt("What's your username for this session?");
     sessionStorage.setItem("username", username);
     socket.emit('addUser', (username));
 }
+
 //todo: fix dynamic display of active users.
 socket.on('displayUsers', (users) => {
     console.log(users);
