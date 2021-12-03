@@ -24,6 +24,9 @@ After this learning challenge, you'll be able to:
 ### Strategy
 rewriting the steps less confusing and working on them. 
 try to get as far as possible before lunch. 
+day one got met really far, managed to pull off finishing all basic functionality and the start of some extra's, 
+Day2: today i will try to explore some creative angles on how to approach this challenge.
+Goal is to figure out some challenging functionality that's complex and make it so that if reliably works and has a cool effect at the same time. 
 
 ### Log/self-reflection
 2/12/21: start of exercise. not sure what to expect, creating my own server sounds cool but complicated, we'll see how far we can get before lunch. for now i've reworded the first 4 steps and will rush these asap.
