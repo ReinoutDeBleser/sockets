@@ -33,7 +33,7 @@ Goal is to figure out some challenging functionality that's complex and make it 
 these first steps are going quickly, but i ran into something i couldn't resolve myself because of a naming issue where i named my client html file client.html instead of the default index.html i typically use. because of that the code provided did not work and i lost valuable time. good lesson, but also good lesson in asking for some guidance in a step i feel should be seamless.
 so I finished the steps required to start working on actual features meeting the requirements, currently able to send and receive messages to all and myself. 
 this challenge is more my speed. through some really nice insight at the start after asking a few questions it went very smoothly, i've done all of the non-creative pieces of the must-haves, next up is making it look nicer and thinking of what I want to implement. 
-
+encountered a weird doubling up of sending the pineapple message, it was increasing initially to grow every time and then it got sent once for every account, i had a socket/io problem where i was sending messages from and to everyone once. making it appear my function was only ran once on my current user console but also happening in the logs of the other users, which i failed to initially check for as i didn't know this was possible. 
 
 ### Features - checklist :heavy_check_mark:
 -finished elements will be checked off-
